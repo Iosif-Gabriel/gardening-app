@@ -1,0 +1,111 @@
+.about-us{
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #fff;
+} 
+
+.about-us__content{
+    flex: 0.82;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.about-us-image {
+    flex:1;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.about-us__content >h3{
+    text-align: left;
+    font-size: 50px;
+}
+
+.about-us__content > h5{
+    text-align: center;
+    font-size: min(30px,35px);
+    font-weight: 500;
+    padding: min(15px, 30px);
+    
+}
+
+.about-us__content > h2{
+
+    font-size: 115px;
+    font-weight: 400;
+    color:#4343431c;
+    line-height: 180px;
+}
+
+.about-us__content > h6{
+    position: absolute;
+    font-size: 115px;
+    color:#4343431c;
+    font-weight: 400;
+    top: 730px;
+    left: 35px;
+}
+
+.about-us__help > p{
+    padding: min(5px,20px);
+    text-align-last: left;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.about-us__help-tips >p{
+    /* padding: min(0px,20px); */
+    padding: 20px;
+    text-align-last: left;
+    font-size: 25px;
+    color: black;
+    line-height:5.5dvb;
+}
+
+
+.about-us-image > img{
+    max-height: 934px;
+    min-width: 634px;
+
+    object-fit: cover;
+}
+
+
+.about-us-image__overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    background-color: var(--overlay);
+    z-index: -5;
+}
+
+.about-us__button{
+    position: absolute;
+}
+
+
+.about-us__learn-button{
+    border: solid #ffffff 2px;
+    box-shadow: inset 8px 3px #adadad;
+}
+
+.about-us__learn-button:hover{
+    border: solid #000000b9 2px;
+    background-color: #bebebe;
+}
+
+.vertical-text{
+    position: absolute;
+    font-size: 50px;
+    bottom:30px;
+    left: 0;
+    padding: min(30px, 10vw);
+    color: white;
+    font-weight: 400;
+}

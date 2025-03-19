@@ -1,0 +1,126 @@
+.catalog{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align-last: center;
+    padding: 20px;
+}
+
+.catalog-title{
+    position: relative;;
+    color:white;
+    font-size: 50px;
+    font-weight: 380;
+    padding: 0;
+    align-self: center;
+}
+
+.catalog__filters{
+    gap:25px;
+    overflow-x: auto;
+
+    margin-top: 50px;
+}
+
+.catalog__filter-btn{
+    padding: 12px 25px;
+    cursor: pointer;
+
+    color:white;
+    background: rgb(255,255,255,0.08);
+    border:1px solid rgb(255,255,255,0.1);
+    border-radius: 20px;
+}
+
+.catalog__filter-btn:hover ,.catalog__explore-button:hover{
+    background-color: rgb(255,255,255,0.2);
+    border:1px solid rgb(255,255,255,0.5);
+}
+
+.catalog__showcase{
+    margin-top: clamp(40px, 10vh, 100px);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:50px;
+}
+
+.catalog__showcase__flower {
+    border:1px solid rgb(255,255,255,0.2);
+    background-color: rgb(255,255,255,0.1);
+    border-radius: 20px;
+    max-width: 300px;
+    height: 380px;
+}
+
+.catalog__showcase__flower:hover {
+    background-color: rgb(255,255,255,0.2);
+    border:1px solid rgb(255,255,255,0.5);
+}
+
+.showcase_side{
+    max-width: 250px;
+    max-height: 320px;
+}
+
+.showcase__side-image{
+    min-width: 230px;
+    max-height: 155px;
+}
+
+
+.showcase__side-text{
+    padding: 20px;
+    font-size: 15px;
+    line-height: 22px;
+    text-align-last:center;
+    font-weight: 300;
+    text-align: center;
+}
+
+.catalog__showcase__flower > h1{
+    color: white;
+    font-weight: 400;
+}
+
+.catalog__showcase__flower > img{
+    padding: 15px 10px 15px 10px;
+    border-radius: 30px;
+}
+
+.showcase__center-image{
+    max-width: 280px;
+    padding: 10px;
+}
+
+.showcase__center-title{
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+
+.showcase__center-text{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.catalog__explore-button{
+    margin-top: clamp(40px, 10vh, 100px);
+    width: 207px;
+    height: 46px;
+    border-radius: 40px;
+
+    border:1px solid rgba(0, 0, 0);
+    align-self: center;
+    cursor: pointer;
+    background-color: black;
+
+    font-size: 18px;
+}
+
