@@ -95,13 +95,13 @@ a {
 } */
 
 /*1221 × 574 */
-@media screen and (max-height: 574px) {
+@media screen and (min-height: 504px)  and (max-width: 1580px) and (min-width: 1000px){
 
     .hero-image img {
-        max-width: 520px;
+        /* max-width: 520px; */
         height: 400px;
-        border-top-right-radius: 230px;
-        border-bottom-left-radius: 230px;
+        border-top-right-radius: 200px;
+        border-bottom-left-radius: 200px;
     }
 
     .hero-image>h2 {
@@ -115,7 +115,7 @@ a {
 
     .about-us-image>img {
         max-height: 570px;
-        min-width: 600px;
+        min-width: 95%;
     }
 
     .about-us__content {
@@ -155,7 +155,7 @@ a {
     }
 
     .about-us__help-tips>p {
-        font-size: 20px;
+        font-size: 17px;
         line-height: 5.2dvb;
     }
 
@@ -164,16 +164,20 @@ a {
         padding: unset;
     } */
 
+    .catalog-title {
+        font-size: 45px;
+        line-height: 1;
+    }
     .catalog__filters{
-        margin-top: 25px;
+        /* margin-top: 25px; */
         padding: unset;
     }
 
     .catalog__showcase{
-        margin-top: 25px
+        /* margin-top: 25px */
     }
 
-    .catalog_showcase__flower {
+    .catalog__showcase__flower {
         border:1px solid rgb(255,255,255,0.2);
         background-color: rgb(255,255,255,0.1);
         border-radius: 20px;
@@ -181,47 +185,47 @@ a {
         height: 280px;
     }
     
-    .showcase_side{
+    .showcase__side{
         max-width: 250px;
-        max-height: 230px;
+        max-height: 240px;
     }
     
-    .showcase_side-image{
-        max-width: 200px;
+    .showcase__side-image{
+        max-width: 2150px;
         max-height: 155px;
     }
     
-    .showcase_side-text{
+    .showcase__side-text{
         padding: 5px;
         font-size: 13px;
         line-height: 13px;
         text-align-last:center;
     }
     
-    .catalog_showcase__flower > img{
+    .catalog__showcase__flower > img{
         padding: 10px 5px 10px 5px;
         border-radius: 30px;
     }
     
-    .showcase_center-image{
+    .showcase__center-image{
         max-width: 220px;
     }
     
-    .showcase_center-title{
+    .showcase__center-title{
         padding: 10px;
         font-size: 25px;
         line-height: 10px;
     }
     
     
-    .showcase_center-text{
+    .showcase__center-text{
         padding: 10px;
         font-size: 15px;
         line-height: 22px;
     }
 
     .catalog__explore-button{
-        margin-top: 25px;
+        /* margin-top: 25px; */
     }
 
     /*trending*/
@@ -236,7 +240,7 @@ a {
     
     .trending__flower-title{
         font-size: 30px;
-        padding: 10px;
+        padding: 5px;
     }
     
     .trending__image{
@@ -244,7 +248,7 @@ a {
     }
 
     .trending__image > img{
-        max-width:350px;
+        max-width:320px;
         min-height: 100px;
         border-radius: 50px;
         object-fit: contain;
@@ -257,7 +261,7 @@ a {
         border-radius: 100%;
     }
 
-    .trending_flower-cond{
+    .trending__flower-cond{
         font-size: 23px;
         font-weight: 700;
         padding: 5px;
@@ -267,6 +271,14 @@ a {
         font-size: 13px;
         padding: 10px;
 
+    }
+
+    .newsletter-text{
+        justify-content: space-evenly;
+    }
+
+    .newsletter__content{
+        justify-content: unset;
     }
     
 
@@ -281,9 +293,6 @@ a {
 }
 
 @media screen and (max-width: 1024px) and (max-height: 1500px) {
-
-
-
     .hero{
         flex-direction: column;
     }
@@ -545,8 +554,8 @@ a {
     }
 
     .newsletter-form{
-        min-width:300px;
-        min-height: 70px;
+        /* min-width:300px;
+        min-height: 70px; */
         border: 2px solid white;
         gap:unset;
         padding: 10px;
@@ -572,3 +581,43 @@ a {
        
     }
 }
+
+/* big monitor  */
+/* @media screen and (min-height: 1440px) {
+    .hero-content-info>h1{
+        font-size: 55px;
+    }
+
+    .hero-content-info>p {
+        font-size: 30px;
+    }
+
+    .about-us__content > h3{
+        font-size: 55px;
+    }
+
+    .about-us__content > h5{
+        font-size: 40px;
+    }
+
+    .about-us__help > p{
+        font-size: 35px;
+    }
+
+    .about-us__help-tips > p{
+        font-size: 32px;
+        line-height: 60px;
+    }
+
+
+    .catalog-title{
+        font-size: 65px;
+    }
+
+    .catalog__filter-btn{
+        font-size: 25px;
+    }
+
+
+
+} */
