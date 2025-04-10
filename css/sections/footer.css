@@ -2,9 +2,11 @@ footer{
     background-color: white;
     min-width: 100%;
     display: flex;
-    position: sticky;
-    align-self: self-end;
-    /* min-height: 200px; */
+    position: absolute;
+    bottom:0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-self: center;
     justify-content: space-between;
     padding: 20px;
 }

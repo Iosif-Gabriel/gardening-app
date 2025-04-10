@@ -4,6 +4,7 @@
     overflow: hidden;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 
 .newsletter__content{
@@ -47,7 +48,8 @@
     min-height: 96px; */
     border-radius:200px ;
     border: 2px solid white;
-    padding:20px
+    padding:20px;
+    margin-bottom:150px;
 }
 
 .newsletter__input{
@@ -57,9 +59,10 @@
     border: none;
     outline: none;
     margin: 0;
-    padding: 15px;
+    padding-left: 15px;
     /* min-width: 230px; */
     /* min-width: 250px; */
+    
 }
 
 ::placeholder {

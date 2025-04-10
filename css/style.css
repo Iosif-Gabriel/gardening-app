@@ -173,9 +173,6 @@ a {
         padding: unset;
     }
 
-    .catalog__showcase{
-        /* margin-top: 25px */
-    }
 
     .catalog__showcase__flower {
         border:1px solid rgb(255,255,255,0.2);
@@ -222,10 +219,6 @@ a {
         padding: 10px;
         font-size: 15px;
         line-height: 22px;
-    }
-
-    .catalog__explore-button{
-        /* margin-top: 25px; */
     }
 
     /*trending*/
@@ -548,8 +541,9 @@ a {
     .newsletter-form > button{
         font-size: 15px;
     
-        min-width: 104px;
+        min-width: 84px;
         height: 50px;
+        font-size: 12px;
 
     }
 
@@ -558,7 +552,9 @@ a {
         min-height: 70px; */
         border: 2px solid white;
         gap:unset;
-        padding: 10px;
+        padding: 5px;
+        max-width: 350px;
+       
     }
     
     .newsletter__input{
@@ -583,7 +579,7 @@ a {
 }
 
 /* big monitor  */
-/* @media screen and (min-height: 1440px) {
+@media screen and (min-height: 1440px) {
     .hero-content-info>h1{
         font-size: 55px;
     }
@@ -618,6 +614,14 @@ a {
         font-size: 25px;
     }
 
+    .trending__flower-text{
+        font-size: 25px;
+    }
+
+    .trending__flower-title{
+        font-size: 50px;
+    }
 
 
-} */
+
+}
